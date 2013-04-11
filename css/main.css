@@ -1,0 +1,39 @@
+h1.wellcome_message {
+  display: inline-block; 
+}
+
+.vision_message_box {
+	
+}
+
+/* Large desktop */
+@media  (min-width: 1200px) {
+  img#logo {
+    width: 256px;
+    height: 256px;
+  }
+}
+ 
+/* Portrait tablet to landscape and desktop */
+@media  (min-width: 768px) and (max-width: 979px) {
+  img#logo {
+    width: 200px;
+    height: 200px;
+  }
+}
+ 
+/* Landscape phone to portrait tablet */
+@media  (max-width: 767px) {
+  img#logo {
+    width: 200px;
+    height: 200px;
+  }
+}
+ 
+/* Landscape phones and down */
+@media  (max-width: 480px) {
+  img#logo {
+    width: 200px;
+    height: 200px;
+  }
+}
