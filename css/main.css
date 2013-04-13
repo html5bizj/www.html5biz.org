@@ -1,16 +1,12 @@
-/* common
-------------------------------------*/
-body {
-    font-family: Meiryo,sans-serif;
-}
-
 /* hero-unit
 ------------------------------------*/
+h1.wellcome_message {
+	display: inline-block;
+	text-align: center;
+}
+
 .hero_join{
 	margin: 7px;
-}
-.welcome_message {
-	display: inline-block;
 }
 
 /* event_table
@@ -38,22 +34,10 @@ body {
 	margin-bottom: 22px;
 }
 /* Large desktop */
- @media (min-width: 980px) {
-
+ @media (min-width: 1200px) {
 	img#logo {
 		width: 256px;
 		height: 256px;
-	}
-	.hero-unit {
-		text-align: left;
-	}
-	.welcome-top {
-		font-size: 35%;
-		line-height: 31px;
-	}
-	.welcome-main {
-		font-size: 100%;
-		line-height: 110%;
 	}
 	.event_table {
 		width: 700px;
@@ -65,40 +49,31 @@ body {
 		width: 200px;
 		height: 200px;
 	}
-	.hero-unit {
-		text-align: left;
+	.hero-unit h1 {
+		font-size: 200%;
 	}
-	.welcome-top {
-		font-size: 25%;
+	h1 {
+		font-size: 250%;
 		line-height: 31px;
 	}
-	.welcome-main {
-		font-size: 100%;
-		line-height: 110%;
-	}
-	small {
+	h1 small {
 		font-size: 60%;
 	}
 }
 /* Landscape phone to portrait tablet */
  @media (max-width: 767px) {
 	img#logo {
-		width: 300px;
-		height: 300px;
+		width: 200px;
+		height: 200px;
 	}
-	.hero-unit {
-		padding:30px;
-		text-align: center;
+	.hero-unit .h1 {
+		font-size: 200%;
 	}
-	.welcome-top {
-		font-size: 25%;
+	h1 {
+		font-size: 200%;
 		line-height: 31px;
 	}
-	.welcome-main {
-		font-size: 100%;
-		line-height: 110%;
-	}
-	small {
+	h1 small {
 		font-size: 60%;
 	}
 }
@@ -108,19 +83,14 @@ body {
 		width: 200px;
 		height: 200px;
 	}
-	.hero-unit {
-		padding:30px;
-		text-align: center;
+	.hero-unit h1 {
+		font-size: 200%;
 	}
-	.welcome-top {
-		font-size: 25%;
+	h1 {
+		font-size: 200%;
 		line-height: 31px;
 	}
-	.welcome-main {
-		font-size: 100%;
-		line-height: 110%;
-	}
-	small {
+	h1 small {
 		font-size: 60%;
 	}
 }
