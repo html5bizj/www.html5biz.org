@@ -1,8 +1,14 @@
+/* Common
+------------------------------------*/
+body {
+	font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
+}
+
+
 /* hero-unit
 ------------------------------------*/
-h1.wellcome_message {
+h1.welcome_message {
 	display: inline-block;
-	text-align: center;
 }
 
 .hero_join{
@@ -25,8 +31,21 @@ h1.wellcome_message {
 .event_table dd {
 	margin-left: 120px;
 }
+<<<<<<< HEAD
 
 /* lecture
+=======
+h2 {
+	font-size : 150%;
+}
+h4 {
+	font-size : 100%;
+}
+.summary {
+	border-top : 1px solid #dddddd;
+}
+/* speaker
+>>>>>>> TOPページの改善
 ------------------------------------*/
 .lecture_data {
 	margin: 7px;
@@ -44,13 +63,29 @@ h1.wellcome_message {
 	margin-bottom: 22px;
 }
 /* Large desktop */
- @media (min-width: 1200px) {
+ @media (min-width: 980px) {
 	img#logo {
-		width: 256px;
-		height: 256px;
+		width: 250px;
+		height: 250px;
 	}
 	.event_table {
 		width: 700px;
+	}
+	.welcome_message {
+		position : absolute;
+		padding-left : 50px;
+		padding-top  : 30px;
+	}
+	.welcome_top {
+		font-size : 30%;
+	}
+	.welcome_main {
+		display:block;
+		font-size : 125%;
+	}
+	.hero-unit {
+		padding : 20px 80px;
+		text-align: left;
 	}
 }
 /* labels
@@ -74,15 +109,24 @@ h1.wellcome_message {
 		width: 200px;
 		height: 200px;
 	}
-	.hero-unit h1 {
-		font-size: 200%;
-	}
-	h1 {
-		font-size: 250%;
-		line-height: 31px;
-	}
-	h1 small {
+	small {
 		font-size: 60%;
+	}
+	.welcome_message {
+		position : absolute;
+		padding-left : 20px;
+		padding-top  : 20px;
+	}
+	.welcome_top {
+		font-size : 25%;
+	}
+	.welcome_main {
+		display:block;
+		font-size : 100%;
+	}
+	.hero-unit {
+		padding : 20px 40px;
+		text-align: left;
 	}
 	.ustream_channel iframe {
 		width: 500px;
@@ -92,18 +136,28 @@ h1.wellcome_message {
 /* Landscape phone to portrait tablet */
  @media (max-width: 767px) {
 	img#logo {
-		width: 200px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
 	}
-	.hero-unit .h1 {
-		font-size: 200%;
-	}
-	h1 {
-		font-size: 200%;
-		line-height: 31px;
-	}
-	h1 small {
+	small {
 		font-size: 60%;
+	}
+	.welcome_message {
+		position : relative;
+		padding-left : 0px;
+		padding-top  : 0px;
+	}
+	.welcome_top {
+		padding-top : 0px;
+		font-size : 30%;
+	}
+	.welcome_main {
+		display:none;
+		font-size : 100%;
+	}
+	.hero-unit {
+		padding : 0px 0px;
+		text-align: center;
 	}
 	.ustream_channel iframe {
 		width: 385px;
@@ -114,18 +168,28 @@ h1.wellcome_message {
 /* Landscape phones and down */
  @media (max-width: 480px) {
 	img#logo {
-		width: 200px;
-		height: 200px;
+		width: 250px;
+		height: 250px;
 	}
-	.hero-unit h1 {
-		font-size: 200%;
-	}
-	h1 {
-		font-size: 200%;
-		line-height: 31px;
-	}
-	h1 small {
+	small {
 		font-size: 60%;
+	}
+	.welcome_message {
+		position : relative;
+		padding-left : 0px;
+		padding-top  : 0px;
+	}
+	.welcome_top {
+		padding-top : 0px;
+		font-size : 30%;
+	}
+	.welcome_main {
+		display:none;
+		font-size : 75%;
+	}
+	.hero-unit {
+		padding : 0px 0px;
+		text-align: center;
 	}
 	.ustream_channel iframe {
 		width: 300px;
