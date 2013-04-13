@@ -4,6 +4,13 @@ body {
 	font-family:'メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;
 }
 
+h2 {
+	font-size : 150%;
+}
+h4 {
+	font-size : 100%;
+}
+
 
 /* hero-unit
 ------------------------------------*/
@@ -31,21 +38,12 @@ h1.welcome_message {
 .event_table dd {
 	margin-left: 120px;
 }
-<<<<<<< HEAD
-
 /* lecture
-=======
-h2 {
-	font-size : 150%;
-}
-h4 {
-	font-size : 100%;
-}
+------------------------------------*/
 .summary {
 	border-top : 1px solid #dddddd;
 }
 /* speaker
->>>>>>> TOPページの改善
 ------------------------------------*/
 .lecture_data {
 	margin: 7px;
@@ -56,9 +54,6 @@ h4 {
 .lecture_summary_table dd {
 	margin-left: 120px;
 }
-
-/* speaker
-------------------------------------*/
 .speaker_box {
 	margin-bottom: 22px;
 }
