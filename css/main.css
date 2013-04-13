@@ -25,11 +25,21 @@ h1.wellcome_message {
 .event_table dd {
 	margin-left: 120px;
 }
+
+/* lecture
+------------------------------------*/
+.lecture_data {
+	margin: 7px;
+}
+.lecture_summary_table dt {
+	width: 100px;
+}
+.lecture_summary_table dd {
+	margin-left: 120px;
+}
+
 /* speaker
 ------------------------------------*/
- .atnd {
-	background-color: #b94a48;
-}
 .speaker_box {
 	margin-bottom: 22px;
 }
@@ -43,6 +53,21 @@ h1.wellcome_message {
 		width: 700px;
 	}
 }
+/* labels
+------------------------------------*/
+.label_atnd {
+	background-color: #b94a48;
+}
+.label_togetter {
+	background-color: #7FC6BC;
+}
+.label_slideshare {
+	background-color: #f89406;
+}
+.label_ustream {
+	background-color: #999999;
+}
+
 /* Portrait tablet to landscape and desktop */
  @media (min-width: 768px) and (max-width: 979px) {
 	img#logo {
@@ -58,6 +83,10 @@ h1.wellcome_message {
 	}
 	h1 small {
 		font-size: 60%;
+	}
+	.ustream_channel iframe {
+		width: 500px;
+		height: 407px;
 	}
 }
 /* Landscape phone to portrait tablet */
@@ -76,6 +105,11 @@ h1.wellcome_message {
 	h1 small {
 		font-size: 60%;
 	}
+	.ustream_channel iframe {
+		width: 385px;
+		height: 321px;
+	}
+
 }
 /* Landscape phones and down */
  @media (max-width: 480px) {
@@ -92,5 +126,9 @@ h1.wellcome_message {
 	}
 	h1 small {
 		font-size: 60%;
+	}
+	.ustream_channel iframe {
+		width: 300px;
+		height: 257px;
 	}
 }
