@@ -21,6 +21,9 @@ h1.welcome_message {
 .hero_join{
 	margin: 7px;
 }
+.hero-unit {
+	margin-bottom : 10px;
+}
 
 /* event_table
 ------------------------------------*/
@@ -43,6 +46,23 @@ h1.welcome_message {
 .summary {
 	border-top : 1px solid #dddddd;
 }
+
+/* social applications
+------------------------------------*/
+
+.social_apps {
+	text-align: right;
+	overflow: hidden;
+}
+.social_apps .social_button {
+	float: right;
+	margin-right: 10px;
+}
+.social_apps iframe {
+	margin: 0 !important;
+	width : 100px !important;
+}
+
 /* speaker
 ------------------------------------*/
 .lecture_data {
@@ -57,6 +77,22 @@ h1.welcome_message {
 .speaker_box {
 	margin-bottom: 22px;
 }
+
+/* labels
+------------------------------------*/
+.label_atnd {
+	background-color: #b94a48;
+}
+.label_togetter {
+	background-color: #7FC6BC;
+}
+.label_slideshare {
+	background-color: #f89406;
+}
+.label_ustream {
+	background-color: #999999;
+}
+
 /* Large desktop */
  @media (min-width: 980px) {
 	img#logo {
@@ -83,20 +119,7 @@ h1.welcome_message {
 		text-align: left;
 	}
 }
-/* labels
-------------------------------------*/
-.label_atnd {
-	background-color: #b94a48;
-}
-.label_togetter {
-	background-color: #7FC6BC;
-}
-.label_slideshare {
-	background-color: #f89406;
-}
-.label_ustream {
-	background-color: #999999;
-}
+
 
 /* Portrait tablet to landscape and desktop */
  @media (min-width: 768px) and (max-width: 979px) {

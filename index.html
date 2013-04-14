@@ -6,6 +6,13 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<!--Facebookソーシャル対応用 begin -->
+	<meta property="og:title" content="html5biz">
+	<meta property="og:type" content="article">
+	<meta property="og:url" content="http://www.html5biz.org/">
+	<meta property="og:image" content="http://www.html5biz.org/img/html5logo.png">
+	<meta property="og:site_name" content="html5biz">
+	<!--Facebookソーシャル対応用 end -->
 	<title>html5biz</title>
 	<meta name="description" content="">
 	<meta name="viewport" content="width=device-width">
@@ -50,16 +57,29 @@
 	<div class="container">
 		<!-- Main hero unit for a primary marketing message or call to action -->
 		<div class="hero-unit">
-			<img id="logo" src="img/html5logo.png">
+			<img id="logo" src="./img/html5logo.png">
 			<h1 class="welcome_message">
-			<p class="welcome_top"><nobr>業務システムエンジニアのための</nobr><wbr/><nobr>モダンWeb技術者コミュニティ</nobr></p>
+				<p class="welcome_top"><nobr>業務システムエンジニアのための</nobr><wbr/><nobr>モダンWeb技術者コミュニティ</nobr></p>
 				<p class="welcome_main">html5biz</p>
-				<p><a href="#" class="btn btn-primary btn-large">今すぐhtml5bizに参加する »</a></p>
+				<p>
+					<!-- Google Groups加入ボタン -->
+					<a href="#" class="btn btn-primary btn-large">今すぐhtml5bizに参加する »</a>
+				</p>
 			</h1>
 		</div>
 		<!-- Example row of columns -->
 		<div class="row">
 			<div class="span12">
+				<div class="social_apps">
+					<!-- Mixiボタン -->
+					<div class="social_button"><div data-plugins-type="mixi-favorite" data-service-key="46607bf620e72c972405f586667bf636f84b5a97" data-size="medium" data-href="http://www.html5biz.org/" data-show-faces="false" data-show-count="true" data-show-comment="true" data-width=""></div></div>
+					<!-- Google＋ボタン -->
+					<div class="social_button"><div class="g-plusone" data-size="medium"></div></div>
+					<!-- Twitterボタン -->
+					<div class="social_button"><a href="https://twitter.com/share" class="twitter-share-button" data-url="http://www.html5biz.org/" data-via="kawada_hiroshi1" data-lang="ja" data-hashtags="html5biz">ツイート</a></div>
+					<!-- Facebookボタン -->
+					<div class="social_button"><div class="fb-like" data-href="http://www.html5biz.org/" data-send="false" data-layout="button_count" data-width="80" data-show-faces="true"></div></div>
+				</div>
 				<p>html5bizは、HTML5・JavaScriptライブラリ・Web系インフラ・UI/UX・BYOD・モバイルなど、"<strong>モダンWeb技術</strong>"を扱う業務システムエンジニアたちが集い、情報共有や議論を行う中立コミュニティです。</p>
 				<p>そんな私たちのモットーは…</nobr></p>
 				<ul>
@@ -120,6 +140,31 @@
 	</script>
 	<script src="./js/vendor/bootstrap.min.js"></script>
 	<script src="./js/main.js"></script>
+	<!-- ソーシャル対応 -->
+	<!-- Google+ -->
+	<script type="text/javascript">
+  window.___gcfg = {lang: 'ja'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+	</script>
+	<!-- Facebook -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1&appId=157307964436235";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+	<!-- Twitter -->
+	<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
+	<!-- Mixi -->
+	<script type="text/javascript">(function(d) {var s = d.createElement('script'); s.type = 'text/javascript'; s.async = true;s.src = '//static.mixi.jp/js/plugins.js#lang=ja';d.getElementsByTagName('head')[0].appendChild(s);})(document);</script>
+
 </body>
 
 </html>
