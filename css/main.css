@@ -93,6 +93,26 @@ h1.welcome_message {
 	background-color: #999999;
 }
 
+/* labels
+------------------------------------*/
+.icon24 {
+	display: inline-block;
+	width: 24px;
+	height: 24px;
+	margin-top: 1px;
+	line-height: 24px;
+	vertical-align: text-top;
+	background-repeat: no-repeat;
+	opacity: 0.4;
+}
+
+.icon_facebook {
+	background-image: url("../img/btn_mini_facebook.png");
+}
+.icon_twitter {
+	background-image: url("../img/btn_mini_twitter.png");
+}
+
 /* Large desktop */
  @media (min-width: 980px) {
 	img#logo {
