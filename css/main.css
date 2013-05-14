@@ -92,6 +92,9 @@ h1.welcome_message {
 .label_ustream {
 	background-color: #999999;
 }
+.label_github {
+  background-color: #000;
+}
 
 /* labels
 ------------------------------------*/
