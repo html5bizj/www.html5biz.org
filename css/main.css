@@ -78,6 +78,17 @@ h1.welcome_message {
 	margin-bottom: 22px;
 }
 
+/* LT
+------------------------------------*/
+.lt_summary_table dt {
+  text-overflow: clip;
+  white-space: normal;
+  width: 250px;
+}
+.lt_summary_table dd {
+  margin-left: 260px;
+}
+
 /* labels
 ------------------------------------*/
 .label_atnd {
@@ -90,7 +101,7 @@ h1.welcome_message {
 	background-color: #f89406;
 }
 .label_ustream {
-	background-color: #999999;
+	background-color: #2792ff;
 }
 .label_github {
   background-color: #000;
