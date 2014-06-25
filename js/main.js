@@ -29,6 +29,10 @@ angular
         templateUrl: 'views/archive.html',
         controller: 'MainCtrl'
       })
+      .when('/ustraem', {
+        templateUrl: 'views/ustream.html',
+        controller: 'MainCtrl'
+      })
       .when('/aboutus', {
         templateUrl: 'views/aboutus.html',
         controller: 'MainCtrl'
