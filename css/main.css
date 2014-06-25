@@ -149,7 +149,7 @@ h1.welcome_message {
 	}
 	.welcome_main {
 		display:block;
-		font-size : 100%;
+		font-size : 60%;
 	}
 	.hero-unit {
 		padding : 20px 80px;
@@ -177,7 +177,7 @@ h1.welcome_message {
 	}
 	.welcome_main {
 		display:block;
-		font-size : 80%;
+		font-size : 40%;
 	}
 	.hero-unit {
 		padding : 20px 40px;
@@ -208,7 +208,7 @@ h1.welcome_message {
 	}
 	.welcome_main {
 		display:none;
-		font-size : 100%;
+		font-size : 60%;
 	}
 	.hero-unit {
 		padding : 0px 0px;
@@ -240,7 +240,7 @@ h1.welcome_message {
 	}
 	.welcome_main {
 		display:none;
-		font-size : 75%;
+		font-size : 50%;
 	}
 	.hero-unit {
 		padding : 0px 0px;
