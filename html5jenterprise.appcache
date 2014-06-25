@@ -1,0 +1,52 @@
+CACHE MANIFEST
+# リソースを更新する場合、必ず値を変更する
+# マニフェストファイルを保存しておく場所は、htmlファイルと同じディレクトリです
+# 2013-06-25 12:50
+
+# キャッシュしたいリソース
+# このうち一つでもファイルが見つからないとエラーになりキャッシュされません。
+CACHE:
+index.html
+views/main.html
+views/readme.html
+views/aboutus.html
+views/archive.html
+img/html5logo.png
+img/btn_mini_facebook.png
+img/btn_mini_twitter.png
+css/bootstrap.min.css
+css/bootstrap-responsive.min.css
+css/main.css
+js/main.js
+js/analytics.js
+js/controllers/main.js
+js/vendor/bootstrap.min.js
+js/vendor/jquery-1.9.1.min.js
+js/vendor/jquery-1.9.1.min.map
+js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
+bower_components/angular/angular.min.js
+bower_components/angular-resource/angular-resource.min.js
+bower_components/angular-cookies/angular-cookies.min.js
+bower_components/angular-sanitize/angular-sanitize.min.js
+bower_components/angular-route/angular-route.min.js
+bower_components/angular/angular.min.map
+bower_components/angular-resource/angular-resource.min.map
+bower_components/angular-cookies/angular-cookies.min.map
+bower_components/angular-sanitize/angular-sanitize.min.map
+bower_components/angular-route/angular-route.min.map
+
+
+# 常にネットワーク上を参照して欲しい場合に使用
+# 必ずオンラインアクセスを試みるリソース
+NETWORK:
+http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
+http://www.google-analytics.com/analytics.js
+http://connect.facebook.net/ja_JP/all.js
+http://platform.twitter.com/widgets.js
+http://static.mixi.jp/js/plugins.js#lang=ja
+https://apis.google.com/js/plusone.js
+livereload.js?snipver=1
+
+# 代替エントリを宣言
+# アクセスに失敗した場合に代わりに使用するリソース（NETWORK:と両方に指定すると動作しない）
+FALLBACK:
