@@ -118,12 +118,12 @@ $(function() {
 			if(phase==='start') {
 				s = 'start';
 			} else if (s==='start' && direction==='left' && phase==='end') {
-				if (duration>200) {
+				if (duration>100) {
 					if(i > 4) i=0;
 					location.href = urls[i++];
 				}
 			} else if (s==='start' && direction==='right' && phase==='end') {
-				if (duration>200) {
+				if (duration>100) {
 					if(i < 0) i=4;
 					location.href = urls[i--];
 				}
