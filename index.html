@@ -109,31 +109,31 @@
 
 	<!-- Sample -->
 <script>
-$(function() {
-	var s = '';
-	var i = 0;
-	var urls = ["#/", "#/readme", "#/archive", "#/ustraem", "#/aboutus"];		
-	$("#container").swipe({
-		swipeStatus: function(event, phase, direction, distance, duration, fingers){
-			if(phase==='start') {
-				s = 'start';
-			} else if (s==='start' && direction==='left' && phase==='end') {
-				if (duration>50) {
-					if(i > 4) i=0;
-					location.href = urls[i++];
-				}
-			} else if (s==='start' && direction==='right' && phase==='end') {
-				if (duration>50) {
-					if(i < 0) i=4;
-					location.href = urls[i--];
-				}
-			}
-		},
-		threshold:200,
-		maxTimeThreshold:5000,
-		fingers:'all'
-	});
-});
+// $(function() {
+// 	var s = '';
+// 	var i = 0;
+// 	var urls = ["#/", "#/readme", "#/archive", "#/ustraem", "#/aboutus"];		
+// 	$("#container").swipe({
+// 		swipeStatus: function(event, phase, direction, distance, duration, fingers){
+// 			if(phase==='start') {
+// 				s = 'start';
+// 			} else if (s==='start' && direction==='left' && phase==='end') {
+// 				if (duration>50) {
+// 					if(i > 4) i=0;
+// 					location.href = urls[i++];
+// 				}
+// 			} else if (s==='start' && direction==='right' && phase==='end') {
+// 				if (duration>50) {
+// 					if(i < 0) i=4;
+// 					location.href = urls[i--];
+// 				}
+// 			}
+// 		},
+// 		threshold:200,
+// 		maxTimeThreshold:5000,
+// 		fingers:'all'
+// 	});
+// });
 </script>
 	<!-- ソーシャル対応 -->
 	<!-- Google+ -->
