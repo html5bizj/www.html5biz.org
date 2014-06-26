@@ -29,7 +29,7 @@
 	<script src="./js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
 	<script src="./js/analytics.js"></script>
 </head>
-  <body ng-app="html5jenterprise">
+  <body ng-app="html5jenterprise"  id="container">
 	<div class="navbar navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -94,15 +94,47 @@
 
 	<script src="./js/vendor/bootstrap.min.js"></script>
 
+	<!-- AngularJS -->
 	<script src="bower_components/angular/angular.min.js"></script>
 	<script src="bower_components/angular-resource/angular-resource.min.js"></script>
     <script src="bower_components/angular-cookies/angular-cookies.min.js"></script>
     <script src="bower_components/angular-sanitize/angular-sanitize.min.js"></script>
     <script src="bower_components/angular-route/angular-route.min.js"></script>
 
+    <!-- jQuery plugin -->
+    <script src="bower_components/jquery-touchswipe/jquery.touchSwipe.min.js"></script>
+
 	<script src="./js/main.js"></script>
 	<script src="./js/controllers/main.js"></script>
-	
+
+	<!-- Sample -->
+<script>
+$(function() {
+	var s = '';
+	var i = 0;
+	var urls = ["#/", "#/readme", "#/archive", "#/ustraem", "#/aboutus"];		
+	$("#container").swipe({
+		swipeStatus: function(event, phase, direction, distance, duration, fingers){
+			if(phase==='start') {
+				s = 'start';
+			} else if (s==='start' && direction==='left' && phase==='end') {
+				if (duration>500) {
+					if(i > 4) i=0;
+					location.href = urls[i++];
+				}
+			} else if (s==='start' && direction==='right' && phase==='end') {
+				if (duration>500) {
+					if(i < 0) i=4;
+					location.href = urls[i--];
+				}
+			}
+		},
+		threshold:10,
+		maxTimeThreshold:10,
+		fingers:'all'
+	});
+});
+</script>
 	<!-- ソーシャル対応 -->
 	<!-- Google+ -->
 	<script type="text/javascript">
