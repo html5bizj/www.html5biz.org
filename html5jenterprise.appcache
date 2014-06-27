@@ -39,15 +39,7 @@ bower_components/jquery-touchswipe/jquery.touchSwipe.min.js
 # 常にネットワーク上を参照して欲しい場合に使用
 # 必ずオンラインアクセスを試みるリソース
 NETWORK:
-http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js
-http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.map
-http://www.google-analytics.com/analytics.js
-http://connect.facebook.net/ja_JP/all.js
-http://platform.twitter.com/widgets.js
-http://static.mixi.jp/js/plugins.js#lang=ja
-https://apis.google.com/js/plusone.js
-http://static-cdn2.ustream.tv/embed2/build/mte.js.map
-livereload.js?snipver=1
+*
 
 # 代替エントリを宣言
 # アクセスに失敗した場合に代わりに使用するリソース（NETWORK:と両方に指定すると動作しない）
