@@ -11,7 +11,15 @@ h4 {
 	font-size : 100%;
 }
 
-
+span.mean {
+	visibility: hidden;
+	position: absolute;
+	top: 0px;
+	height: 0px;
+	font-size : 0.5px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
 /* hero-unit
 ------------------------------------*/
 h1.welcome_message {
