@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # リソースを更新する場合、必ず値を変更する
 # マニフェストファイルを保存しておく場所は、htmlファイルと同じディレクトリです
-# 2013-07-02 18:00
+# 2013-07-02 18:45
 
 # キャッシュしたいリソース
 # このうち一つでもファイルが見つからないとエラーになりキャッシュされません。
@@ -20,6 +20,7 @@ posts/event/2013-10-31-html55.html
 posts/event/2014-01-27-html56.html
 img/btn_mini_facebook.png
 img/btn_mini_twitter.png
+img/html5logo.png
 css/bootstrap.min.css
 css/bootstrap-responsive.min.css
 css/main.css
