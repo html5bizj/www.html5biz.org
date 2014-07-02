@@ -19,7 +19,6 @@ mod.controller('MainCtrl', function($scope, $http) {
 mod.controller('ArchiveCtrl', function($scope, $http) {
     $http.get('events/archive.json')
       .success(function(data) {
-      	console.log(data);
       	$scope.archives = data;
       });
   });
