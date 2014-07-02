@@ -1,0 +1,51 @@
+[
+	{
+		"url": "http://www.ospn.jp/osc2014-nagoya/",
+		"date":	"2014/07/05",
+		"title": "[名古屋] オープンソースカンファレンス2014 Nagoya",
+		"desc": "",
+		"venue": "名古屋国際センター",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるこれからのWeb開発：第1会議室(10:00〜)", 
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "展示ブース",
+				"title": "HTML5統合開発ツールYEOMANのデモ展示を行います。", 
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},
+	{
+		"url": "https://gist.github.com/itokami1123dev/c27a8aba75e6e8bc736d",
+		"date":	"2014/07/19",
+		"title": "NetBeansでモクモクJava+JavaScriptのWebアプリを作ろう@福岡"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-kyoto/",
+		"date":	"2014/08/01-2014/08/02",
+		"title": "[京都] オープンソースカンファレンス2014 Kansai＠Kyoto"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014.enterprise-osaka/",
+		"date":	"2014/09/05",
+		"title": "(仮)[大阪] オープンソースカンファレンス2014 .Enterprise＠Osaka"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-hiroshima/",
+		"date":	"2014/09/20",
+		"title": "[広島] オープンソースカンファレンス2014 Hiroshima"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-fall/",
+		"date":	"2014/10/18-2014/10/19",
+		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-fukuoka/",
+		"date":	"2014/11/14-2014/11/15",
+		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka"
+	}
+]

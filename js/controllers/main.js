@@ -7,11 +7,19 @@
  * # MainCtrl
  * Controller of the myAngularAppApp
  */
-angular.module('html5jenterprise')
-  .controller('MainCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
+var mod = angular.module('html5jenterprise');
+
+mod.controller('MainCtrl', function($scope, $http) {
+    $http.get('events/events.json')
+      .success(function(data) {
+      	$scope.events = data;
+      });
+  });
+
+mod.controller('ArchiveCtrl', function($scope, $http) {
+    $http.get('events/archive.json')
+      .success(function(data) {
+      	console.log(data);
+      	$scope.archives = data;
+      });
   });

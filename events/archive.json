@@ -1,0 +1,443 @@
+[
+	{
+		"url": "http://www.ospn.jp/osc2014-do/",
+		"date":	"2014/06/13-2014/06/14",
+		"title": "オープンソースカンファレンス2014 Hokkaido",
+		"desc": "",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるこれからのWeb開発", 
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ", 
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},{
+		"url": "http://atnd.org/events/51619",
+		"date":	"2014/06/13",
+		"title": "HTML5 fun × SenchaUGナイトセミナー＠札幌",
+		"desc": "Web制作者も必見、一からPhoneGapを学ぼう！そしてHTML5の未来を語る",
+		"contents": [
+			{
+				"category": "",
+				"title": "Web制作者からみたPhoneGap", 
+				"speaker": "阿部正幸（HTML5 fun / KDDIウェブコミュニケーションズ エバンジェリスト）"
+			},
+			{
+				"category": "",
+				"title": "PhoneGapを使う理由", 
+				"speaker": "佐川夫美雄（html5jエンタープライズ部）"
+			},
+			{
+				"category": "",
+				"title": "SenchaとPhoneGap – 意外と知らない使い方", 
+				"speaker": "後藤 恭智（Sencha UG）"
+			},
+			{
+				"category": "",
+				"title": "PhoneGapなんか要らない？ – FireFoxOS", 
+				"speaker": "酒巻 瑞穂（FireFoxOSコードリーディング（メンバー））"
+			}
+		]
+	},{
+		"url": "http://atnd.org/events/51156",
+		"date":	"2014/05/27",
+		"title": "第10回 html5jエンタープライズ部ナイトセミナー",
+		"desc": "UIテストの自動化は何が良いのか、どのように実現するのか？",
+		"contents": [
+			{
+				"speaker": "Oracle 榑松 谷仁"
+			},
+			{
+				"speaker": "サイボウズ 宮田 淳平"
+			},
+			{
+				"speaker": "ゼノフィ 佐川 夫美雄"
+			},
+			{
+				"speaker": "DeNA 沖田 邦夫"
+			},
+			{
+				"speaker": "日本IBM 金元 隆志"
+			}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2014-okinawa/",
+		"date":	"2014/05/24",
+		"title": "オープンソースカンファレンス2014 Okinawa",
+		"desc": "",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるこれからのWeb開発",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ",
+				"speaker": "佐川夫美雄"
+			}
+
+		]
+	},{
+		"url": "http://connpass.com/event/6078/",
+		"date":	"2014/05/22",
+		"title": "【ヒカ☆ラボ】業務アプリケーション開発の「いま」を語る ～ 最新トレンド技術YEOMANとは！？ ～",
+		"desc": "",
+		"contents": [
+			{
+				"category": "",
+				"title": "業務エンジニアとしての生き方",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "",
+				"title": "HTML5って簡単？",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "",
+				"title": "業務アプリケーションを作るためのアーキテクチャ（Single-page Application）",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "",
+				"title": "開発ツールYEOMAN",
+				"speaker": "佐川夫美雄"
+			}
+
+		]
+	},{
+		"url": "http://kokucheese.com/event/index/153842/",
+		"date": "2014/04/12",
+		"title": "エフスタ!!春のITまつり　～エンタープライズ開発の全て！～",
+		"desc": "エフスタ主催による春のITまつりに参加",
+		"contents": [
+			{
+				"title": "簡単プレゼンテーション術",
+				"speaker": "菊地司和"
+			},{
+				"title": "業務アプリケーションにおけるこれからのWeb開発 〜 HTML5は簡単か 〜",
+				"speaker": "佐川夫美雄"
+			},{
+				"title": "描いて伝えるあなたの想い",
+				"speaker": "鈴木真彦"
+			},{
+				"title": "デベロッパーも知ってると便利 デザインの基本",
+				"speaker": "稲葉修平"
+			},{
+				"title": "ITインフラのお仕事",
+				"speaker": "藤田慎也"
+			},{
+				"title": "セキュリティと開発と",
+				"speaker": "芳賀健"
+			},{
+				"title": "現場使えるSQLの極意",
+				"speaker": "湯峰洋志/村上俊政"
+			}
+		]
+	},{
+		"url": "http://atnd.org/events/48485",
+		"date": "2014/04/09",
+		"title": "第9回 html5jエンタープライズ部ナイトセミナー",
+		"desc": "IE6はEOLだが、これからのWeb系システムは本当にブラウザでいいのか？",
+		"contents": [
+			{
+				"title": "IBM Worklight",
+				"speaker": "日本アイ・ビー・エム株式会社 佐々木 志門"
+			},{
+				"title": "SAP Mobile Platform",
+				"speaker": "SAPジャパン株式会社 川畑 宗仁"
+			},{
+				"title": "Google Chrome for Business",
+				"speaker": "html5jエンタープライズ部 川田 寛"
+			},{
+				"title": "Microsoft Internet Explorer ＆ Active Directory ＆ IEAK",
+				"speaker": "株式会社シーピーエス / Microsoft MVP 村地 彰"
+			},{
+				"title": "Mozilla Firefox",
+				"speaker": "株式会社クリアコード 結城 洋志"
+			},{
+				"title": "Sencha Space",
+				"speaker": "株式会社ゼノフィ 中村 久司"
+			}
+		]
+	},{
+		"url": "http://atnd.org/events/48518",
+		"date": "2014/03/25",
+		"title": "はじめてのプログラミング ～ はいはい編 ～",
+		"contents": [
+			{
+				"title": "ハンズオン講師",
+				"speaker": "酒巻瑞穂"
+			}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2014-hamanako/",
+		"date": "2014/03/22",
+		"title": "オープンソースカンファレンス2014 Hamanako",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "フルOSSで作るSingle-page Application powered by Yeoman",
+				"speaker": "佐川夫美雄"
+			},{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ", 
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},{
+		"url": "http://html5fukuoka.doorkeeper.jp/events/9170",
+		"date": "2014/03/15",
+		"title": "Yeomanハンズオン@福岡",
+		"contents": [
+			{
+				"title": "YEOMAN概要",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"title": "generatorを作ってみよう",
+				"speaker": "酒巻瑞穂"
+			}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2014-spring/",
+		"date": "2014/02/28-2014/03/01",
+		"title": "オープンソースカンファレンス2014 Tokyo/Spring",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるモダンWeb開発の現状",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ", 
+				"speaker": "佐川夫美雄/酒巻瑞穂"
+			}
+		]
+	},{
+		"url": "http://conference.html5biz.org/2014spring/",
+		"date": "2014/02/28",
+		"title": "Enterprise x HTML5 Application Conference 2014",
+		"contents": [
+			{"title": "パネルディスカッション「HTML5とエンタープライズITの向かう先」"},
+			{"title": "デスクトップアプリの使い勝手を超えるWeb業務アプリケーションを作る"},
+			{"title": "HTML5を活用した効果の高いリッチアプリ開発体制構築とコンサルティングの実現方法"},
+			{"title": "ゼロコーディングでブラウザ動作プロトタイプを作る最新のWeb制作ツール"},
+			{"title": "企業におけるHTML5を用いたスマートデバイス向けアプリ開発"},
+			{"title": "Web アプリケーションにおけるクライアントサイドのデータハンドリングと可視化の実現"},
+			{"title": "知らないと損する?Webページを検証するための無償ツールとサービス"},
+			{"title": "業務系Webアプリケーションに求められるUIとUX"},
+			{"title": "リッチアプリケーション開発を助けるOSSのJSフレームワーク「AngularJS」の魅力"},
+			{"title": "Webアプリ開発者のためのHTML5セキュリティ入門"},
+			{"title": "オープンソースで始めるオフラインアプリケーション開発入門"},
+			{"title": "OSSのブラウザ自動テストツール「Selenium」を使った、開発・テストの効率化"},
+			{"title": "JavaエンタープライズアーキテクチャにおけるHTML5"}
+		]
+	},{
+		"url": "http://atnd.org/events/47435",
+		"date": "2014/02/15",
+		"title": "第13回 Creators MeetUp",
+		"desc": "クリエイティビティを刺激するクリエイターの集う場「Creators MeetUp」へ参加",
+		"contents": [
+			{
+				"title": "絶望の国の起業とセーフティネット",
+				"speaker": "加々美文康"
+			},
+			{
+				"title": "最近話題になったセキュリティ","speaker": "ももいやすなり"
+			},
+			{
+				"title": "ものづくりにかける時間 – 工数の見積もりと計画づくり","speaker": "千葉礼美"
+			},
+			{
+				"title": "たった500円でいいの！？ワンコインマーケット・ココナラ活用術！","speaker": "原田敦"
+			},
+			{
+				"title": "高セキュリティ低コストでのサイト制作","speaker": "山本和輝"
+			},
+			{
+				"title": "HTML5 時代に必要なスキル","speaker": "山崎大助"
+			},
+			{
+				"title": "RIAからSPAへ、HTML５が導く技術革新","speaker": "佐川夫美雄"
+			}
+		]
+	},{
+		"url": "http://event.shoeisha.jp/devsumi/20140213/",
+		"date": "2014/02/13-2014/02/14",
+		"title": "Developers Summit 2014",
+		"contents": [
+			{"title": "【13-D-1】JavaからJavaScriptへ！HTML5適用から見えた次世代業務アプリケーション","speaker": "佐川夫美雄"},
+			{"title": "【13-D-2】エンタープライズでのHTML5活用　～フロントエンドエンジニアの新たな企業ニーズ 大解説！～","speaker": "川田寛"},
+			{"title": "【13-D-5】[U30] フロントエンド開発者になるための切掛と行動","speaker": "酒巻 瑞穂"},
+			{"title": "【13-E-7】Yet Another Your Story (Enterprise TED 3)","speaker": "【司会】高柳 謙 〔gumi〕/梅澤 雄一郎 〔DTS〕/小川 充 〔クレスコ〕/たかの あきこ/中野 雅之/平栗 遵宜"}
+		]
+	},{
+		"url": "./posts/event/2014-01-27-html56.html",
+		"date": "2014/01/27",
+		"title": "第７回 html5jエンタープライズ部ナイトセミナー",
+		"desc": "RIAに代わる技術、実用的SPAについて考える",
+		"contents": [
+			{"title": "いま、なぜ SPA なのか","speaker": "佐川 夫美雄"},
+			{"title": "SPA を実現するために必要な通信技術","speaker": "仲 裕介"},
+			{"title": "Vert.xとSockJSによるスケールアウトWebSocketサーバー構築","speaker": "小堤 一弘、横田真俊"},
+			{"title": "SPA に必要なJavaScriptフレームワーク","speaker": "酒巻 瑞穂"},
+			{"title": "WebSocketを利用したSPA事例とデモ","speaker": "@stakezaki"},
+			{"title": "MVC5+Bootstrapで作るSPA with Office365アカウント(+Google, FB, Twitterアカウント)","speaker": "野呂清二"}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2013.enterprise/",
+		"date": "2013/12/13",
+		"title": "オープンソースカンファレンス2013 .Enterprise",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるWeb開発の現状",
+				"speaker": "佐川夫美雄/酒巻瑞穂"
+			},
+			{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ",
+				"speaker": "佐川夫美雄/酒巻瑞穂"
+			}
+		]
+	},{
+		"url": "http://geechs-magazine.com/561",
+		"date": "2013/12/10",
+		"title": "【21cafe】スペシャルゲスト登場！ 汎用的なツール「Yeoman」のハンズオン",
+		"contents": [
+			{"title": "ハンズオン講師","speaker": "佐川夫美雄"},
+			{"title": "スペシャルゲスト","speaker": "@yosuke_furukawa "}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2013-fukuoka/",
+		"date": "2013/11/16",
+		"title": "オープンソースカンファレンス2013 Fukuoka",
+		"desc": "第６回 html5jエンタープライズ部（ナイト）セミナー",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるモダンWeb開発の現状",
+				"speaker": "川田寛/佐川夫美雄/酒巻瑞穂"
+			},
+			{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ",
+				"speaker": "川田寛/佐川夫美雄/酒巻瑞穂"
+			}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2013-fukuoka/",
+		"date": "2013/11/11, 2013/11/27",
+		"title": "【21cafe】エンタープライズ･初心者向け JavaScriptフレームワーク・ハンズオン",
+		"desc": "Backbone.js/AngularJS編",
+		"contents": [
+			{
+				"title": "Backboneハンズオン講師",
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"title": "AngularJSハンズオン講師",
+				"speaker": "：酒巻瑞穂"
+			}
+		]
+	},{
+		"url": "./posts/event/2013-10-31-html55.html",
+		"date": "2013/10/31",
+		"title": "第５回 html5jエンタープライズ部ナイトセミナー",
+		"desc": "HALLOWEEN WEB NIGHT 〜HTML5適用事例で盛り上がろう！〜",
+		"contents": [
+			{"title": "Backbone/Yeomanでえんぷら","speaker": "@albatrosary"},
+			{"title": "AngularJSでえんぷら」","speaker": "@SakamakiM"},
+			{"title": "Ext.js/SenchaSDKでえんぷら","speaker": "@kotsutsumi"},
+			{"title": "Visual Studio 2013 は何が違うのか？ HTML5時代に整合したWeb開発環境","speaker": "@kawada_hiroshi"},
+			{"title": "HTML5とOSSで作るブラウザで簡単顔認識","speaker": "@mitsuruog"},
+			{"title": "three.js : 3D表現とえんぷら」@chimerast"},
+			{"title": "紙からWebへ","speaker": "新潮社「フォーサイト」編集長 安河内 氏"},
+			{"title": "エンタープライズ分野におけるWebRTC最新動向","speaker": "@Tukimikage"}
+		]
+	},{
+		"url": "http://www.ospn.jp/osc2013-fall/",
+		"date": "2013/10/19-2013/10/20",
+		"title": "オープンソースカンファレンス2013 Tokyo/Fall",
+		"contents": [
+			{
+				"category": "展示ブース",
+				"title": "YEOMANのデモ",
+				"speaker": "川田寛/佐川夫美雄"
+			}
+		]
+	},{
+		"url": "./posts/event/2013-10-31-html55.html",
+		"date": "2013/10/17, 2013/10/24",
+		"title": "【21cafe】ハンズオン形式で学ぶ！HTML5勉強会",
+		"desc": "GitHub+CSS+Sass+Compass編",
+		"contents": [
+			{"title": "ハンズオン講師：佐川夫美雄"}
+		]
+	},{
+		"url": "./posts/event/2013-09-09-html54.html",
+		"date": "2013/9/9",
+		"title": "業務システムエンジニアのためのHTML5勉強会#04",
+		"contents": [
+			{
+				"title": "業務系WebアプリケーションがStrutsから旅立つ日",
+				"speaker": "小川充"
+			},
+			{
+				"title": "Java EE の概要と HTML 5 の取り組み",
+				"speaker": "寺田佳央"
+			},
+			{
+				"title": "Strutsから移行する人のためのJSF基礎",
+				"speaker": "久保智"
+			},
+			{
+				"title": "JavaプログラマのためのScalaプログラミング",
+				"speaker": "石黒尚久"
+			},
+			{
+				"title": "JavaからScalaへ　~ScalaでWeb開発はこう変わる~",
+				"speaker": "竹添直樹"
+			},
+			{"title": "LT大会"}
+		]
+	},{
+		"url": "/posts/event/2013-08-01-html53.html",
+		"date": "2013/08/01",
+		"title": "業務システムエンジニアのためのHTML5勉強会#03",
+		"contents": [
+			{"title": "新しいIEとJavaScriptで動く最近のWebアプリケーション"},
+			{"title": "IT管理者と新しいIE"},
+			{"title": "だから、IEは業務システムで使われている。いままでもこれからも"},
+			{"title": "LT大会"}
+		]
+	},{
+		"url": "/posts/event/2013-05-10-html52.html",
+		"date": "2013/05/10",
+		"title": "業務システムエンジニアのためのHTML5勉強会#02",
+		"contents": [
+			{"title": "Webアプリ開発プラットフォームを使ってみる ~Wakandaの巻~"},
+			{"title": "websocketでバックエンドプログラムのコンソールメッセージをブラウザに出してみた"},
+			{"title": "グラフ描画JSライブラリ ~サーバ負荷を最小に抑えてグラフを出力する方法"},
+			{"title": "LT大会"}
+		]
+	},{
+		"url": "/posts/event/2013-03-15-html51.html",
+		"date": "2013/03/15",
+		"title": "業務システムエンジニアのためのHTML5勉強会#01",
+		"contents": [
+			{"title": "HTML5×業務アプリ－いくつかのコンサル経験と元業務アプリ屋の視点から"},
+			{"title": "HTML5-ready な IE10 との付き合い方"},
+			{"title": "HTML5と非機能要件の話"},
+			{"title": "写真アップロードモバイルHTML5サイトの最適化と業務アプリへの適用"}
+		]
+	}
+]

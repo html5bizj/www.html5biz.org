@@ -1,7 +1,7 @@
 CACHE MANIFEST
 # リソースを更新する場合、必ず値を変更する
 # マニフェストファイルを保存しておく場所は、htmlファイルと同じディレクトリです
-# 2013-06-26 16:51
+# 2013-07-02 12:45
 
 # キャッシュしたいリソース
 # このうち一つでもファイルが見つからないとエラーになりキャッシュされません。
@@ -35,6 +35,8 @@ bower_components/angular-cookies/angular-cookies.min.js.map
 bower_components/angular-sanitize/angular-sanitize.min.js.map
 bower_components/angular-route/angular-route.min.js.map
 bower_components/jquery-touchswipe/jquery.touchSwipe.min.js
+events/events.json
+events/archive.json
 
 # 常にネットワーク上を参照して欲しい場合に使用
 # 必ずオンラインアクセスを試みるリソース
