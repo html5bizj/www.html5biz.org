@@ -37,6 +37,12 @@ angular
         templateUrl: 'views/aboutus.html',
         controller: 'MainCtrl'
       })
+      .when('/post/:eventsname', {
+        templateUrl: function(params) {
+          return "posts/event/" + params.eventsname + ".html";
+        },
+        controller: 'MainCtrl'
+      })
       .otherwise({
         redirectTo: '/'
       });

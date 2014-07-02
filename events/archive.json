@@ -280,7 +280,7 @@
 			{"title": "【13-E-7】Yet Another Your Story (Enterprise TED 3)","speaker": "【司会】高柳 謙 〔gumi〕/梅澤 雄一郎 〔DTS〕/小川 充 〔クレスコ〕/たかの あきこ/中野 雅之/平栗 遵宜"}
 		]
 	},{
-		"url": "./posts/event/2014-01-27-html56.html",
+		"url": "#/post/2014-01-27-html56",
 		"date": "2014/01/27",
 		"title": "第７回 html5jエンタープライズ部ナイトセミナー",
 		"desc": "RIAに代わる技術、実用的SPAについて考える",
@@ -349,7 +349,7 @@
 			}
 		]
 	},{
-		"url": "./posts/event/2013-10-31-html55.html",
+		"url": "#/post/2013-10-31-html55",
 		"date": "2013/10/31",
 		"title": "第５回 html5jエンタープライズ部ナイトセミナー",
 		"desc": "HALLOWEEN WEB NIGHT 〜HTML5適用事例で盛り上がろう！〜",
@@ -375,7 +375,7 @@
 			}
 		]
 	},{
-		"url": "./posts/event/2013-10-31-html55.html",
+		"url": "#/post/2013-10-31-html55",
 		"date": "2013/10/17, 2013/10/24",
 		"title": "【21cafe】ハンズオン形式で学ぶ！HTML5勉強会",
 		"desc": "GitHub+CSS+Sass+Compass編",
@@ -383,7 +383,7 @@
 			{"title": "ハンズオン講師：佐川夫美雄"}
 		]
 	},{
-		"url": "./posts/event/2013-09-09-html54.html",
+		"url": "#/post/2013-09-09-html54",
 		"date": "2013/9/9",
 		"title": "業務システムエンジニアのためのHTML5勉強会#04",
 		"contents": [
@@ -410,7 +410,7 @@
 			{"title": "LT大会"}
 		]
 	},{
-		"url": "/posts/event/2013-08-01-html53.html",
+		"url": "#/post/2013-08-01-html53",
 		"date": "2013/08/01",
 		"title": "業務システムエンジニアのためのHTML5勉強会#03",
 		"contents": [
@@ -420,7 +420,7 @@
 			{"title": "LT大会"}
 		]
 	},{
-		"url": "/posts/event/2013-05-10-html52.html",
+		"url": "#/post/2013-05-10-html52",
 		"date": "2013/05/10",
 		"title": "業務システムエンジニアのためのHTML5勉強会#02",
 		"contents": [
@@ -430,7 +430,7 @@
 			{"title": "LT大会"}
 		]
 	},{
-		"url": "/posts/event/2013-03-15-html51.html",
+		"url": "#/post/2013-03-15-html51",
 		"date": "2013/03/15",
 		"title": "業務システムエンジニアのためのHTML5勉強会#01",
 		"contents": [
