@@ -1,5 +1,24 @@
 [
 	{
+		"url": "http://www.ospn.jp/osc2014-nagoya/",
+		"date":	"2014/07/05",
+		"title": "[名古屋] オープンソースカンファレンス2014 Nagoya",
+		"desc": "",
+		"venue": "名古屋国際センター",
+		"contents": [
+			{
+				"category": "登壇",
+				"title": "業務アプリケーションにおけるこれからのWeb開発：第1会議室(10:00〜)", 
+				"speaker": "佐川夫美雄"
+			},
+			{
+				"category": "展示ブース",
+				"title": "HTML5統合開発ツールYEOMANのデモ展示を行います。", 
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},
+	{
 		"url": "http://www.ospn.jp/osc2014-do/",
 		"date":	"2014/06/13-2014/06/14",
 		"title": "オープンソースカンファレンス2014 Hokkaido",
