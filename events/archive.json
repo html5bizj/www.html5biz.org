@@ -8,12 +8,12 @@
 		"contents": [
 			{
 				"category": "登壇",
-				"title": "業務アプリケーションにおけるこれからのWeb開発：第1会議室(10:00〜)", 
+				"title": "業務アプリケーションにおけるこれからのWeb開発", 
 				"speaker": "佐川夫美雄"
 			},
 			{
 				"category": "展示ブース",
-				"title": "HTML5統合開発ツールYEOMANのデモ展示を行います。", 
+				"title": "HTML5統合開発ツールYEOMANのデモ展示", 
 				"speaker": "佐川夫美雄"
 			}
 		]
@@ -32,7 +32,7 @@
 			{
 				"category": "展示ブース",
 				"title": "YEOMANのデモ", 
-				"speaker": "佐川夫美雄"
+				"speaker": "佐川夫美雄/酒巻瑞穂"
 			}
 		]
 	},{
