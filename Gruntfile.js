@@ -17,7 +17,7 @@ module.exports = function (grunt) {
 
   // Configurable paths for the application
   var appConfig = {
-    app: require('./bower.json').appPath || 'app',
+    app:  'app', // require('./bower.json').appPath ||,
     dist: 'dist'
   };
 
@@ -36,10 +36,10 @@ module.exports = function (grunt) {
           livereload: '<%= connect.options.livereload %>'
         }
       },
-      compass: {
-        files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
-        tasks: ['compass:server', 'autoprefixer']
-      },
+      // compass: {
+      //   files: ['<%= yeoman.app %>/styles/{,*/}*.{scss,sass}'],
+      //   tasks: ['compass:server', 'autoprefixer']
+      // },
       gruntfile: {
         files: ['Gruntfile.js']
       },
@@ -58,7 +58,7 @@ module.exports = function (grunt) {
     'gh-pages': {
       options: {
         base: 'dist',
-        repo: 'https://github.com/MSakamaki/testghpage.git'
+        repo: 'https://github.com/html5bizj/www.html5biz.org.git'
       },
       src: ['**']
     },
@@ -172,33 +172,33 @@ module.exports = function (grunt) {
     // },
 
     // Compiles Sass to CSS and generates necessary files if requested
-    compass: {
-      options: {
-        sassDir: '<%= yeoman.app %>/styles',
-        cssDir: '.tmp/styles',
-        generatedImagesDir: '.tmp/img/generated',
-        imagesDir: '<%= yeoman.app %>/img',
-        javascriptsDir: '<%= yeoman.app %>/scripts',
-        fontsDir: '<%= yeoman.app %>/styles/fonts',
-        importPath: './bower_components',
-        httpImagesPath: '/img',
-        httpGeneratedImagesPath: '/img/generated',
-        httpFontsPath: '/styles/fonts',
-        relativeAssets: false,
-        assetCacheBuster: false,
-        raw: 'Sass::Script::Number.precision = 10\n'
-      },
-      dist: {
-        options: {
-          generatedImagesDir: '<%= yeoman.dist %>/img/generated'
-        }
-      },
-      server: {
-        options: {
-          debugInfo: true
-        }
-      }
-    },
+    // compass: {
+    //   options: {
+    //     sassDir: '<%= yeoman.app %>/styles',
+    //     cssDir: '.tmp/styles',
+    //     generatedImagesDir: '.tmp/img/generated',
+    //     imagesDir: '<%= yeoman.app %>/img',
+    //     javascriptsDir: '<%= yeoman.app %>/scripts',
+    //     fontsDir: '<%= yeoman.app %>/styles/fonts',
+    //     importPath: './bower_components',
+    //     httpImagesPath: '/img',
+    //     httpGeneratedImagesPath: '/img/generated',
+    //     httpFontsPath: '/styles/fonts',
+    //     relativeAssets: false,
+    //     assetCacheBuster: false,
+    //     raw: 'Sass::Script::Number.precision = 10\n'
+    //   },
+    //   dist: {
+    //     options: {
+    //       generatedImagesDir: '<%= yeoman.dist %>/img/generated'
+    //     }
+    //   },
+    //   server: {
+    //     options: {
+    //       debugInfo: true
+    //     }
+    //   }
+    // },
 
     // Renames files for browser caching purposes
     // filerev: {
@@ -337,61 +337,50 @@ module.exports = function (grunt) {
           dest: '<%= yeoman.dist %>',
           src: [
             '*.{ico,png,txt}',
-            '.htaccess',
+            'events/*.json',
             '*.html',
-            'views/{,*/}*.html',
-            'img/{,*/}*.{webp}',
-            'styles/{,*/}*.css',
+            '{views,posts,events}/{,*/}*.html',
+            'css/{,*/}*.css',
             'js/{,*/}*.js',
             'html5jenterprise.appcache'
           ]
         }, {
           expand: true,
-          cwd: '.tmp/img',
+          cwd: '<%= yeoman.app %>/img',
           dest: '<%= yeoman.dist %>/img',
-          src: ['img/*']
+          src: ['*']
         }, {
           expand: true,
-          cwd: './',
-          dest: '<%= yeoman.dist %>/',
-          src: ['bower_components/{,*/,*/*/}*.js',
-                'bower_components/{,*/,*/*/}*.css'
+          cwd: '<%= yeoman.app %>/bower_components',
+          dest: '<%= yeoman.dist %>/bower_components',
+          src: ['{,*/,*/*/,*/*/*/}*.js',
+                '{,*/,*/*/,*/*/*/}*.css',
+                '{,*/,*/*/,*/*/*/}*.map'
             ]
         }, {
           expand: true,
-          cwd: '.',
-          src: 'bower_components/bootstrap-sass-official/vendor/assets/fonts/bootstrap/*',
-          dest: '<%= yeoman.dist %>'
-        }, {
-          expand: true,
-          cwd: '<%= yeoman.app %>/styles',
-          dest: '<%= yeoman.dist %>',
+          cwd: '<%= yeoman.app %>/css',
+          dest: '<%= yeoman.dist %>/css',
           src: '{,*/}*.css',
         }]
-      },
-      styles: {
-        expand: true,
-        cwd: '<%= yeoman.app %>/styles',
-        dest: '.tmp/styles/',
-        src: '{,*/}*.css'
       }
     },
 
     // Run some tasks in parallel to speed up the build process
-    concurrent: {
-      server: [
-        'compass:server'
-      ],
-      test: [
-        'compass'
-      ],
-      dist: [
-        'compass:dist',
-        'cssmin',
-        //'imagemin',
-        //'svgmin'
-      ]
-    }
+    // concurrent: {
+    //   server: [
+    //     'compass:server'
+    //   ],
+    //   test: [
+    //     'compass'
+    //   ],
+    //   dist: [
+    //     'compass:dist',
+    //     //'cssmin',
+    //     //'imagemin',
+    //     //'svgmin'
+    //   ]
+    // }
 
     // Test settings
     // ,karma: {
@@ -404,18 +393,7 @@ module.exports = function (grunt) {
 
 
   grunt.registerTask('serve', 'Compile then start a connect web server', function (target) {
-    if (target === 'dist') {
-      return grunt.task.run(['build', 'connect:dist:keepalive']);
-    }
-
-    grunt.task.run([
-      'clean:server',
-      //'wiredep',
-      'concurrent:server',
-      //'autoprefixer',
-      'connect:livereload',
-      'watch'
-    ]);
+    grunt.task.run(['build', 'connect:dist:keepalive']);
   });
 
   grunt.registerTask('server', 'DEPRECATED TASK. Use the "serve" task instead', function (target) {
@@ -425,7 +403,7 @@ module.exports = function (grunt) {
 
   grunt.registerTask('test', [
     'clean:server',
-    'concurrent:test',
+    //'concurrent:test',
     //'autoprefixer',
     'connect:test',
     //'karma'
@@ -435,7 +413,7 @@ module.exports = function (grunt) {
     'clean:dist',
     //'wiredep',
     //'useminPrepare',
-    'concurrent:dist',
+    //'concurrent:dist',
     //'autoprefixer',
     //'concat',
     //'ngmin',
@@ -448,12 +426,8 @@ module.exports = function (grunt) {
     //'htmlmin'
   ]);
 
-  grunt.registerTask('release', 'release github pages', function (target) {
-    if (target === 'dist') {
-      return grunt.task.run(['build', 'connect:dist:keepalive']);
-    }
-
-    grunt.task.run(['gh-pages']);
+  grunt.registerTask('dep', 'release github pages', function (target) {
+    grunt.task.run(['build','gh-pages']);
   });
 
 

@@ -2,8 +2,10 @@
 # Read about how to use .gitignore: https://help.github.com/articles/ignoring-files
 
 node_modules
+dist
 npm-debug.log
 .DS_Store
+.grunt
 CNAME
 
 # for WebStorm IDE
