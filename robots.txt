@@ -1,4 +1,0 @@
-# robotstxt.org/
-
-User-agent: *
-Sitemap: http://www.html5biz.org/sitemap.xml
