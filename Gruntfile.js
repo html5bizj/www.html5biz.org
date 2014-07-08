@@ -37,6 +37,7 @@ module.exports = function (grunt) {
         cache: {
           patterns: [
             '<%= yeoman.app %>/**/*.html',
+            '!<%= yeoman.app %>/404.html',
             '!<%= yeoman.app %>/bower_components/**/*.html',
             '<%= yeoman.app %>/js/**/*.js',
             '<%= yeoman.app %>/bower_components/**/*.min.js',
