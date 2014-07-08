@@ -26,7 +26,30 @@ module.exports = function (grunt) {
 
     // Project settings
     yeoman: appConfig,
-
+    appcache: {
+      options: {
+        // Task-specific options go here.
+        basePath: '<%= yeoman.app %>'
+      },
+        // Target-specific file lists and/or options go here.
+      all: {
+        dest: '<%= yeoman.app %>/html5jenterprise.appcache',
+        cache: {
+          patterns: [
+            '<%= yeoman.app %>/**/*.html',
+            '!<%= yeoman.app %>/bower_components/**/*.html',
+            '<%= yeoman.app %>/js/**/*.js',
+            '<%= yeoman.app %>/bower_components/**/*.min.js',
+            '<%= yeoman.app %>/bower_components/**/*.min.map',
+            '<%= yeoman.app %>/**/*.png',
+            '<%= yeoman.app %>/**/*.ico',
+            '<%= yeoman.app %>/events/*.json',
+            '<%= yeoman.app %>/css/*.css'
+          ],
+        },
+        network: '*'
+      }
+    },
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       js: {
@@ -412,6 +435,7 @@ module.exports = function (grunt) {
   ]);
 
   grunt.registerTask('build', [
+    'appcache',
     'clean:dist',
     //'wiredep',
     //'useminPrepare',
