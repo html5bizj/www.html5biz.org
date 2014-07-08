@@ -15,6 +15,11 @@
 		"title": "[京都] オープンソースカンファレンス2014 Kansai＠Kyoto"
 	},
 	{
+		"url": "http://www.ospn.jp/osc2014-shimane/",
+		"date":	"2014/08/23",
+		"title": "[島根] オープンソースカンファレンス2014 Shimane"
+	},
+	{
 		"url": "",
 		"date":	"2014/08/xx（調整中）",
 		"title": "エンタープライヤーのためのJavaScriptフレームワーク・ハッカソン"
