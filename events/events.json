@@ -25,13 +25,28 @@
 		"title": "[広島] オープンソースカンファレンス2014 Hiroshima"
 	},
 	{
+		"url": "",
+		"date":	"2014/09/27",
+		"title": "HTML5入門@金沢"
+	},
+	{
 		"url": "http://www.ospn.jp/osc2014-fall/",
 		"date":	"2014/10/18-2014/10/19",
 		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall"
 	},
 	{
+		"url": "",
+		"date":	"2014/10/25",
+		"title": "HTML5入門@香川"
+	},
+	{
 		"url": "http://www.ospn.jp/osc2014-fukuoka/",
-		"date":	"2014/11/14-2014/11/15",
+		"date":	"2014/11/21-2014/11/22",
 		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014.enterprise/",
+		"date":	"2014/12/12",
+		"title": "[東京] オープンソースカンファレンス2014 .Enterprise"
 	}
 ]
