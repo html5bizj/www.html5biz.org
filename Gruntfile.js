@@ -342,7 +342,9 @@ module.exports = function (grunt) {
             '{views,posts,events}/{,*/}*.html',
             'css/{,*/}*.css',
             'js/{,*/}*.js',
-            'html5jenterprise.appcache'
+            'html5jenterprise.appcache',
+            'CNAME',
+            'sitemap.xml'
           ]
         }, {
           expand: true,
