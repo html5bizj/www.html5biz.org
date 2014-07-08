@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 11 - 2014-07-08T03:35:34.049Z
+# rev 12 - 2014-07-08T03:37:01.336Z
 
 CACHE:
 aboutus.html
@@ -30,6 +30,11 @@ bower_components/angular-resource/angular-resource.min.js
 bower_components/angular-route/angular-route.min.js
 bower_components/angular-sanitize/angular-sanitize.min.js
 bower_components/angular/angular.min.js
+bower_components/angular-cookies/angular-cookies.min.js.map
+bower_components/angular-resource/angular-resource.min.js.map
+bower_components/angular-route/angular-route.min.js.map
+bower_components/angular-sanitize/angular-sanitize.min.js.map
+bower_components/angular/angular.min.js.map
 apple-touch-icon-114x114-precomposed.png
 apple-touch-icon-144x144-precomposed.png
 apple-touch-icon-57x57-precomposed.png
