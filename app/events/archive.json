@@ -3,12 +3,12 @@
 		"url": "http://www.ospn.jp/osc2014-nagoya/",
 		"date":	"2014/07/05",
 		"title": "[名古屋] オープンソースカンファレンス2014 Nagoya",
-		"desc": "",
+		"desc": "登壇資料がgunosy.comの朝刊（2014/07/08）に掲載されました",
 		"venue": "名古屋国際センター",
 		"contents": [
 			{
 				"category": "登壇",
-				"title": "業務アプリケーションにおけるこれからのWeb開発", 
+				"title": "業務アプリケーションにおけるこれからのWeb開発@名古屋", 
 				"speaker": "佐川夫美雄"
 			},
 			{
