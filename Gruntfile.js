@@ -46,7 +46,8 @@ module.exports = function (grunt) {
             '<%= yeoman.app %>/**/*.png',
             '<%= yeoman.app %>/**/*.ico',
             '<%= yeoman.app %>/events/*.json',
-            '<%= yeoman.app %>/css/*.css'
+            '<%= yeoman.app %>/styles/*.min.css',
+            '<%= yeoman.app %>/styles/main.css'
           ],
         },
         network: '*'
@@ -75,7 +76,7 @@ module.exports = function (grunt) {
         files: [
           '<%= yeoman.app %>/{,*/}*.html',
           '<%= yeoman.app %>/styles/{,*/}*.css',
-          '.tmp/styles/{,*/}*.css',
+          '<%= yeoman.app %>/scripts/{,*/}*.js',
           '<%= yeoman.app %>/img/{,*/}*.{png,jpg,jpeg,gif,webp,svg}'
         ]
       }
@@ -269,15 +270,13 @@ module.exports = function (grunt) {
     // By default, your `index.html`'s <!-- Usemin block --> will take care of
     // minification. These next options are pre-configured if you do not wish
     // to use the Usemin blocks.
-    // cssmin: {
-    //   dist: {
-    //     files: {
-    //       '<%= yeoman.app %>/styles/{,*/}*.css': [
-    //         '.tmp/styles/{,*/}*.css'
-    //       ]
-    //     }
-    //   }
-    // },
+    cssmin: {
+      compress: {
+        files: {
+          'dist/styles/main.css': 'app/styles/main.css'
+        }
+      }
+    },
     // uglify: {
     //   dist: {
     //     files: {
@@ -365,7 +364,7 @@ module.exports = function (grunt) {
             'events/*.json',
             '*.html',
             '{views,posts,events}/{,*/}*.html',
-            'css/{,*/}*.css',
+            'styles/{,*/}*.min.css',
             'scripts/{,*/}*.js',
             'html5jenterprise.appcache',
             'CNAME',
@@ -384,11 +383,6 @@ module.exports = function (grunt) {
                 '{,*/,*/*/,*/*/*/}*.css',
                 '{,*/,*/*/,*/*/*/}*.map'
             ]
-        }, {
-          expand: true,
-          cwd: '<%= yeoman.app %>/css',
-          dest: '<%= yeoman.dist %>/css',
-          src: '{,*/}*.css',
         }]
       }
     },
@@ -447,7 +441,7 @@ module.exports = function (grunt) {
     //'ngmin',
     'copy:dist',
     // 'cdnify',
-    //'cssmin',
+    'cssmin',
     //'uglify',
     //'filerev',
     //'usemin',

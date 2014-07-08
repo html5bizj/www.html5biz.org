@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 33 - 2014-07-08T06:18:30.284Z
+# rev 52 - 2014-07-08T06:53:41.551Z
 
 CACHE:
 aboutus.html
@@ -47,11 +47,9 @@ img/html5logo.png
 favicon.ico
 events/archive.json
 events/events.json
-css/bootstrap-responsive.css
-css/bootstrap-responsive.min.css
-css/bootstrap.css
-css/bootstrap.min.css
-css/main.css
+styles/bootstrap-responsive.min.css
+styles/bootstrap.min.css
+styles/main.css
 
 NETWORK:
 *
