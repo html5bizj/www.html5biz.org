@@ -39,9 +39,10 @@ module.exports = function (grunt) {
             '<%= yeoman.app %>/**/*.html',
             '!<%= yeoman.app %>/404.html',
             '!<%= yeoman.app %>/bower_components/**/*.html',
-            '<%= yeoman.app %>/js/**/*.js',
             '<%= yeoman.app %>/bower_components/**/*.min.js',
             '<%= yeoman.app %>/bower_components/**/*.min.js.map',
+            '!<%= yeoman.app %>/bower_components/jquery/src/**/*.js',
+            '<%= yeoman.app %>/scripts/**/*.js',
             '<%= yeoman.app %>/**/*.png',
             '<%= yeoman.app %>/**/*.ico',
             '<%= yeoman.app %>/events/*.json',
@@ -54,7 +55,7 @@ module.exports = function (grunt) {
     // Watches files for changes and runs tasks based on the changed files
     watch: {
       js: {
-        files: ['<%= yeoman.app %>/js/{,*/}*.js'],
+        files: ['<%= yeoman.app %>/scripts/{,*/}*.js'],
         tasks: ['newer:jshint:all'],
         options: {
           livereload: '<%= connect.options.livereload %>'
@@ -142,7 +143,7 @@ module.exports = function (grunt) {
       all: {
         src: [
           'Gruntfile.js',
-          '<%= yeoman.app %>/js/{,*/}*.js'
+          '<%= yeoman.app %>/scripts/{,*/}*.js'
         ]
       },
       test: {
@@ -365,7 +366,7 @@ module.exports = function (grunt) {
             '*.html',
             '{views,posts,events}/{,*/}*.html',
             'css/{,*/}*.css',
-            'js/{,*/}*.js',
+            'scripts/{,*/}*.js',
             'html5jenterprise.appcache',
             'CNAME',
             'sitemap.xml'
