@@ -290,16 +290,16 @@ module.exports = function (grunt) {
     //    dist: {}
     //  },
 
-    // imagemin: {
-    //   dist: {
-    //     files: [{
-    //       expand: true,
-    //       cwd: '<%= yeoman.app %>/img',
-    //       src: '{,*/}*.{png,jpg,jpeg,gif}',
-    //       dest: '<%= yeoman.dist %>/img'
-    //     }]
-    //   }
-    // },
+    imagemin: {
+      dist: {
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.app %>/img',
+          src: '{,*/}*.{png,jpg,jpeg,gif}',
+          dest: '<%= yeoman.dist %>/img'
+        }]
+      }
+    },
 
     // svgmin: {
     //   dist: {
@@ -441,6 +441,7 @@ module.exports = function (grunt) {
     //'ngmin',
     'copy:dist',
     // 'cdnify',
+    'imagemin',
     'cssmin',
     //'uglify',
     //'filerev',
