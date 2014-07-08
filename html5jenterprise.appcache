@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 12 - 2014-07-08T03:37:01.336Z
+# rev 15 - 2014-07-08T05:23:54.999Z
 
 CACHE:
 aboutus.html
@@ -21,7 +21,6 @@ views/ustream.html
 js/analytics.js
 js/controllers/main.js
 js/main.js
-js/vendor/bootstrap.js
 js/vendor/bootstrap.min.js
 js/vendor/jquery-1.9.1.min.js
 js/vendor/modernizr-2.6.2-respond-1.1.0.min.js
