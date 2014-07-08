@@ -313,23 +313,23 @@ module.exports = function (grunt) {
     //   }
     // },
 
-    // htmlmin: {
-    //   dist: {
-    //     options: {
-    //       collapseWhitespace: true,
-    //       conservativeCollapse: true,
-    //       collapseBooleanAttributes: true,
-    //       removeCommentsFromCDATA: true,
-    //       removeOptionalTags: true
-    //     },
-    //     files: [{
-    //       expand: true,
-    //       cwd: '<%= yeoman.dist %>',
-    //       src: ['*.html', 'views/{,*/}*.html'],
-    //       dest: '<%= yeoman.dist %>'
-    //     }]
-    //   }
-    // },
+    htmlmin: {
+      dist: {
+        options: {
+          collapseWhitespace: true,
+          conservativeCollapse: true,
+          collapseBooleanAttributes: true,
+          removeCommentsFromCDATA: true,
+          removeOptionalTags: true
+        },
+        files: [{
+          expand: true,
+          cwd: '<%= yeoman.dist %>',
+          src: ['*.html', 'views/{,*/}*.html'],
+          dest: '<%= yeoman.dist %>'
+        }]
+      }
+    },
 
     // ngmin tries to make the code safe for minification automatically by
     // using the Angular long form for dependency injection. It doesn't work on
@@ -445,13 +445,13 @@ module.exports = function (grunt) {
     //'autoprefixer',
     //'concat',
     //'ngmin',
-    'copy:dist'//,
+    'copy:dist',
     // 'cdnify',
     //'cssmin',
     //'uglify',
     //'filerev',
     //'usemin',
-    //'htmlmin'
+    'htmlmin'
   ]);
 
   grunt.registerTask('dep', 'release github pages', function (target) {
