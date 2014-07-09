@@ -2,22 +2,26 @@
 	{
 		"url": "http://html5fukuoka.doorkeeper.jp/events/12982",
 		"date":	"2014/07/19",
-		"title": "NetBeansでモクモクJava+JavaScriptのWebアプリを作ろう@福岡"
+		"title": "NetBeansでモクモクJava+JavaScriptのWebアプリを作ろう@福岡",
+		"venue": "AIP cafe(福岡市中央区大名1丁目14-28 紺屋2023)"
 	},
 	{
 		"url": "http://atnd.org/events/52716",
 		"date":	"2014/07/25 22:00-2014/07/26 22:00",
-		"title": "24Hハッカソン"
+		"title": "24Hハッカソン",
+		"venue": "株式会社ゼノフィ 本社 （東京都新宿区百人町1-17-6 成田ビル 301）"
 	},
 	{
 		"url": "http://www.ospn.jp/osc2014-kyoto/",
 		"date":	"2014/08/01-2014/08/02",
-		"title": "[京都] オープンソースカンファレンス2014 Kansai＠Kyoto"
+		"title": "[京都] オープンソースカンファレンス2014 Kansai＠Kyoto",
+		"venue": "京都リサーチパーク(KRP)"
 	},
 	{
 		"url": "http://www.ospn.jp/osc2014-shimane/",
 		"date":	"2014/08/23",
-		"title": "[島根] オープンソースカンファレンス2014 Shimane"
+		"title": "[島根] オープンソースカンファレンス2014 Shimane",
+		"venue": "松江テルサ (島根県松江市・JR松江駅前)"
 	},
 	{
 		"url": "",
@@ -27,12 +31,14 @@
 	{
 		"url": "http://www.ospn.jp/osc2014.enterprise-osaka/",
 		"date":	"2014/09/05",
-		"title": "[大阪] オープンソースカンファレンス2014 .Enterprise＠Osaka"
+		"title": "[大阪] オープンソースカンファレンス2014 .Enterprise＠Osaka",
+		"venue": "ナレッジキャピタル タワーB 10F カンファレンスルーム（グランフロント大阪 北館）"
 	},
 	{
 		"url": "http://www.ospn.jp/osc2014-hiroshima/",
 		"date":	"2014/09/20",
-		"title": "[広島] オープンソースカンファレンス2014 Hiroshima"
+		"title": "[広島] オープンソースカンファレンス2014 Hiroshima",
+		"venue": "サテライトキャンパスひろしま（広島県民文化センター 5F）"
 	},
 	{
 		"url": "",
@@ -42,7 +48,8 @@
 	{
 		"url": "http://www.ospn.jp/osc2014-fall/",
 		"date":	"2014/10/18-2014/10/19",
-		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall"
+		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall",
+		"venue": "明星大学 日野キャンパス 28号館"
 	},
 	{
 		"url": "",
@@ -52,7 +59,8 @@
 	{
 		"url": "http://www.ospn.jp/osc2014-fukuoka/",
 		"date":	"2014/11/21-2014/11/22",
-		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka"
+		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka",
+		"venue": "福岡ソフトリサーチパーク センタービル 2F"
 	},
 	{
 		"url": "",
@@ -62,6 +70,7 @@
 	{
 		"url": "http://www.ospn.jp/osc2014.enterprise/",
 		"date":	"2014/12/12",
-		"title": "(仮)[東京] オープンソースカンファレンス2014 .Enterprise"
+		"title": "(仮)[東京] オープンソースカンファレンス2014 .Enterprise",
+		"venue": "TKP渋谷カンファレンスセンター"
 	}
 ]
