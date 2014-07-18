@@ -1,5 +1,5 @@
 CACHE MANIFEST
-# rev 80 - 2014-07-09T07:43:20.909Z
+# rev 82 - 2014-07-18T03:19:52.374Z
 
 CACHE:
 aboutus.html
@@ -23,7 +23,6 @@ bower_components/angular-resource/angular-resource.min.js
 bower_components/angular-route/angular-route.min.js
 bower_components/angular-sanitize/angular-sanitize.min.js
 bower_components/angular/angular.min.js
-bower_components/jquery/dist/jquery.min.js
 bower_components/angular-cookies/angular-cookies.min.js.map
 bower_components/angular-resource/angular-resource.min.js.map
 bower_components/angular-route/angular-route.min.js.map
