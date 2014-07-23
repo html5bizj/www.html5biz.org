@@ -156,6 +156,29 @@
 
 		]
 	},{
+		"url": "http://html5fun.jp/event/event_001.html",
+		"date": "2014/05/19",
+		"title": "HTML5入門@東京",
+		"desc": "明日から活かせるHTML5のあれこれ　～ デザインからアプリ開発まで ～",
+		"contents": [
+			{
+				"title": "HTML5入門「影と角丸だけじゃないCSS3の遊び方」",
+				"speaker": "中島俊治（東京アプリ・ワークショップ/放送大学非常勤講師）"
+			},{
+				"title": "HTMLのいま 〜 HTML5の実力はどのくらい？",
+				"speaker": "佐川夫美雄（html5jエンタープライズ部）"
+			},{
+				"title": "エンタープライズとHTML5〜エンタープライズでHTML5って本当に必要なのか？〜",
+				"speaker": "小川充（株式会社クレスコ 技術研究所/html5jエンタープライズ部）"
+			},{
+				"title": "RWDのためのBootstrap Tips",
+				"speaker": "阿部正幸（HTML5 fun/KDDIウェブコミュニケーションズ エバンジェリスト）"
+			},{
+				"title": "NTTコミュニケーションズのWebRTCに関する取り組み",
+				"speaker": "仲裕介（NTTコミュニケーションズ/HTML5 Experts.jp 副編集長/html5jエンタープライズ部）"
+			}
+		]
+	},{
 		"url": "http://kokucheese.com/event/index/153842/",
 		"date": "2014/04/12",
 		"title": "エフスタ!!春のITまつり　～エンタープライズ開発の全て！～",
