@@ -32,8 +32,9 @@
 			<li ng-repeat="event in events">
 				<a href="{{event.url}}" target="_blank">{{event.date}} {{event.title}}</a><br>
 				<small ng-if="event.venue">場所：{{event.venue}}<br></small>
-				<small ng-repeat="contents in event.contents">{{contents.category}}：{{contents.title}}：{{contents.speaker}}<br></small>
-			</li><br>
+				<small ng-repeat="contents in event.contents">{{contents.category}}：{{contents.title}}：{{contents.speaker}}</small>
+			</li>
+			<p> </p>
 		</ul>
 	</div>
 </div>

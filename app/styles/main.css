@@ -20,6 +20,11 @@ span.mean {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
+
+li {
+	line-height: 25px;
+}
+
 /* hero-unit
 ------------------------------------*/
 h1.welcome_message {
