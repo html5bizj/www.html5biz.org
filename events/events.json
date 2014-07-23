@@ -16,15 +16,15 @@
 		"title": "第11回 html5jエンタープライズ部ナイトセミナー"
 	},
 	{
+		"url": "http://atnd.org/events/54156",
+		"date":	"2014/08/16",
+		"title": "第15回 HTML5ミニハッカソン"
+	},
+	{
 		"url": "http://www.ospn.jp/osc2014-shimane/",
 		"date":	"2014/08/23",
 		"title": "[島根] オープンソースカンファレンス2014 Shimane",
 		"venue": "松江テルサ (島根県松江市・JR松江駅前)"
-	},
-	{
-		"url": "",
-		"date":	"2014/08/xx（調整中）",
-		"title": "エンタープライヤーのためのJavaScriptフレームワーク・ハッカソン"
 	},
 	{
 		"url": "http://www.ospn.jp/osc2014.enterprise-osaka/",
@@ -42,6 +42,11 @@
 		"url": "",
 		"date":	"2014/09/27",
 		"title": "HTML5入門@金沢"
+	},
+	{
+		"url": "",
+		"date":	"2014/09/xx（調整中）",
+		"title": "エンタープライヤーのためのJavaScriptフレームワーク・ハッカソン"
 	},
 	{
 		"url": "http://www.ospn.jp/osc2014-fall/",
