@@ -69,6 +69,25 @@
 			}
 		]
 	},{
+		"url": "http://www.okaweb.jp/20140607-2.html",
+		"date":	"2014/06/07",
+		"title": "HTML5入門@岡山",
+		"desc": "第26回 岡山WEBクリエイターズ「現場で使えるHTML5」",
+		"contents": [
+			{
+				"title": "HTML5で人気のAPIを使って、未来価値の創造をしよう", 
+				"speaker": "阿部正幸（HTML5 fun / KDDIウェブコミュニケーションズ エバンジェリスト）"
+			},
+			{
+				"title": "HTML5でのマークアップ再入門", 
+				"speaker": "久保木博（インハウスデザイナー）"
+			},
+			{
+				"title": "HTML5を使えば難しくない3Dグラフィックス", 
+				"speaker": "佐川夫美雄（html5jエンタープライズ部）"
+			}
+		]
+	},{
 		"url": "http://atnd.org/events/51156",
 		"date":	"2014/05/27",
 		"title": "第10回 html5jエンタープライズ部ナイトセミナー",
