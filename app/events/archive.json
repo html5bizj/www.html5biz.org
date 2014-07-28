@@ -1,5 +1,17 @@
 [
 	{
+		"url": "http://atnd.org/events/52716",
+		"date":	"2014/07/25 22:00-2014/07/26 22:00",
+		"title": "24Hハッカソン",
+		"venue": "株式会社ゼノフィ 本社 （東京都新宿区百人町1-17-6 成田ビル 301）",
+		"contents": [
+			{
+				"category": "参加",
+				"speaker": "佐川夫美雄/酒巻瑞穂"
+			}
+		]
+	},
+	{
 		"url": "http://html5fukuoka.doorkeeper.jp/events/12982",
 		"date":	"2014/07/19",
 		"title": "NetBeansでモクモクJava+JavaScriptのWebアプリを作ろう@福岡",
