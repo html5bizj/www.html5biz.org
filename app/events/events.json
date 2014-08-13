@@ -6,6 +6,12 @@
 		"venue": "京都リサーチパーク(KRP)"
 	},
 	{
+		"url": "https://atnd.org/events/54741",
+		"date":	"2014/08/11",
+		"title": "HTML5とかモバイルとかJSフレームワークとか、ぶっちゃけどうなの座談会",
+		"venue": "21Cafe"
+	},
+	{
 		"url": "http://atnd.org/events/54156",
 		"date":	"2014/08/16",
 		"title": "第15回 HTML5ミニハッカソン",
