@@ -102,6 +102,23 @@ h1.welcome_message {
   margin-left: 260px;
 }
 
+/* members
+------------------------------------*/
+.member_box {
+  min-height: 5rem;
+  border-radius: 14px;
+  padding: 7px;
+	background: #f3f3f3;
+}
+
+/* members posts
+------------------------------------*/
+.leader {
+}
+
+.subleader {
+}
+
 /* labels
 ------------------------------------*/
 .label_atnd {

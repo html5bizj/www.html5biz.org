@@ -46,6 +46,7 @@ module.exports = function (grunt) {
             '<%= yeoman.app %>/**/*.png',
             '<%= yeoman.app %>/**/*.ico',
             '<%= yeoman.app %>/events/*.json',
+            '<%= yeoman.app %>/members/*.json',
             '<%= yeoman.app %>/styles/*.min.css',
             '<%= yeoman.app %>/styles/main.css'
           ],
@@ -362,6 +363,7 @@ module.exports = function (grunt) {
           src: [
             '*.{ico,png,txt}',
             'events/*.json',
+            'members/*.json',
             '*.html',
             '{views,posts,events}/{,*/}*.html',
             'styles/{,*/}*.min.css',
