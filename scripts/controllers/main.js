@@ -22,3 +22,10 @@ mod.controller('ArchiveCtrl', function($scope, $http) {
       	$scope.archives = data;
       });
   });
+
+mod.controller('MemberCtrl', function($scope, $http) {
+    $http.get('members/members.json')
+      .success(function(data) {
+        $scope.members = data;
+      });
+  });
