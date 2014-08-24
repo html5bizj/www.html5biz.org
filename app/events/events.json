@@ -6,6 +6,12 @@
 		"venue": "京都リサーチパーク(KRP)"
 	},
 	{
+		"url": "http://atnd.org/events/",
+		"date":	"2014/08/11",
+		"title": "",
+		"venue": "株式会社ゼノフィ 本社（東京都新宿区百人町1-17-6 成田ビル 301）"
+	},
+	{
 		"url": "http://atnd.org/events/54156",
 		"date":	"2014/08/16",
 		"title": "第15回 HTML5ミニハッカソン",
