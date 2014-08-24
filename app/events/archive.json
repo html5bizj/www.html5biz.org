@@ -1,11 +1,23 @@
 [
 	{
+		"url": "http://www.ospn.jp/osc2014-kyoto/",
+		"date":	"2014/08/01-2014/08/02",
+		"title": "[京都] オープンソースカンファレンス2014 Kansai＠Kyoto",
+		"venue": "京都リサーチパーク(KRP)"
+	},
+	{
 		"url": "https://atnd.org/events/54741",
 		"date":	"2014/08/11 19:30-21:00",
 		"title": "HTML5とかモバイルとかJSフレームワークとか、ぶっちゃけどうなの座談会",
 		"venue": "21Cafe",
 		"desc": "エンタープライズを支えるフロントエンド事情！？",
 		"contents": []
+	},
+	{
+		"url": "http://atnd.org/events/54156",
+		"date":	"2014/08/16",
+		"title": "第15回 HTML5ミニハッカソン",
+		"venue": "株式会社ゼノフィ 本社（東京都新宿区百人町1-17-6 成田ビル 301）"
 	},
 	{
 		"url": "http://atnd.org/events/52716",
