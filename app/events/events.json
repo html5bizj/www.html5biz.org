@@ -1,17 +1,5 @@
 [
 	{
-		"url": "http://www.ospn.jp/osc2014.enterprise-osaka/",
-		"date":	"2014/09/05",
-		"title": "[大阪] オープンソースカンファレンス2014 .Enterprise＠Osaka",
-		"venue": "ナレッジキャピタル タワーB 10F カンファレンスルーム（グランフロント大阪 北館）"
-	},	
-	{
-		"url": "https://atnd.org/events/55761",
-		"date":	"2014/09/09",
-		"title": "エンタープライヤーのためのWebComponentsハンズオン",
-		"venue": "21Cafe"
-	},
-	{
 		"url": "http://www.ospn.jp/osc2014-hiroshima/",
 		"date":	"2014/09/20",
 		"title": "[広島] オープンソースカンファレンス2014 Hiroshima",
