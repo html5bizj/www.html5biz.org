@@ -1,9 +1,27 @@
 [
 	{
+		"url": "https://atnd.org/events/56164",
+		"date":	"2014/10/04",
+		"title": "第16回 HTML5ミニハッカソン",
+		"venue": "株式会社ゼノフィ 本社（東京都新宿区百人町1-17-6 成田ビル 301）"
+	},
+	{
+		"url": "http://www.mozilla.jp/events/2014/open-web-day/",
+		"date":	"2014/10/05",
+		"title": "Mozilla Open Web Day in Tokyo",
+		"venue": "3331 Arts Chiyoda (東京都千代田区外神田6丁目11-14)"
+	},
+	{
 		"url": "http://www.ospn.jp/osc2014-fall/",
 		"date":	"2014/10/18-2014/10/19",
 		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall",
 		"venue": "明星大学 日野キャンパス 28号館"
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-fukuoka/",
+		"date":	"2014/11/21-2014/11/22",
+		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka",
+		"venue": "福岡ソフトリサーチパーク センタービル 2F "
 	},
 	{
 		"url": "",
