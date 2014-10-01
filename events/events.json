@@ -33,5 +33,11 @@
 		"date":	"2014/11/28-2014/11/29",
 		"title": "神戸ITフェスティバル",
 		"venue": "神戸市三宮"
+	},
+	{
+		"url": "http://events.html5j.org/conference/2015/1/",
+		"date":	"2015/01/25",
+		"title": "HTML5カンファレンス",
+		"venue": ""
 	}
 ]
