@@ -1,5 +1,40 @@
 [
 	{
+		"url": "https://atnd.org/events/56164",
+		"date":	"2014/10/04",
+		"title": "第16回 HTML5ミニハッカソン",
+		"contents": [
+			{
+				"category": "参加",
+				"speaker": "佐川夫美雄/酒巻瑞穂"
+			}
+		]
+	},
+	{
+		"url": "http://www.mozilla.jp/events/2014/open-web-day/",
+		"date":	"2014/10/05",
+		"title": "Mozilla Open Web Day in Tokyo",
+		"venue": "3331 Arts Chiyoda (東京都千代田区外神田6丁目11-14)",
+		"contents": [
+			{
+				"category": "参加",
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-fall/",
+		"date":	"2014/10/18-2014/10/19",
+		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall",
+		"venue": "明星大学 日野キャンパス 28号館",
+		"contents": [
+			{
+				"category": "参加",
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},
+	{
 		"url": "http://www.ospn.jp/osc2014-hiroshima/",
 		"date":	"2014/09/20",
 		"title": "[広島] オープンソースカンファレンス2014 Hiroshima",
@@ -63,14 +98,12 @@
 	{
 		"url": "http://atnd.org/events/54156",
 		"date":	"2014/08/16",
-		"title": "第15回 HTML5ミニハッカソン",
-		"venue": "株式会社ゼノフィ 本社（東京都新宿区百人町1-17-6 成田ビル 301）"
+		"title": "第15回 HTML5ミニハッカソン"
 	},
 	{
 		"url": "http://atnd.org/events/52716",
 		"date":	"2014/07/25 22:00-2014/07/26 22:00",
 		"title": "24Hハッカソン",
-		"venue": "株式会社ゼノフィ 本社 （東京都新宿区百人町1-17-6 成田ビル 301）",
 		"contents": [
 			{
 				"category": "参加",
@@ -185,7 +218,7 @@
 				"speaker": "サイボウズ 宮田 淳平"
 			},
 			{
-				"speaker": "ゼノフィ 佐川 夫美雄"
+				"speaker": "佐川 夫美雄"
 			},
 			{
 				"speaker": "DeNA 沖田 邦夫"
