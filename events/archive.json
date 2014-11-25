@@ -1,4 +1,34 @@
-[
+[	
+	{
+		"url": "http://html5-fun.doorkeeper.jp/events/16583",
+		"date":	"2014/11/23",
+		"title": "HTML5入門@宮崎",
+		"desc": "HTML5で実現する未来のWeb",
+		"contents": [
+			{
+				"category": "登壇",
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},
+	{
+		"url": "http://www.ospn.jp/osc2014-fukuoka/",
+		"date":	"2014/11/21-2014/11/22",
+		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka",
+		"venue": "福岡ソフトリサーチパーク センタービル 2F ",
+		"desc": "HTML5を活用した業務アプリケーションにおけるこれからのWeb開発",
+		"contents": [
+			{
+				"category": "登壇",
+				"speaker": "佐川夫美雄/酒巻瑞穂"
+			},
+			{
+				"category": "展示ブース",
+				"title": "AngularJS/YEOMAN/MEANスタック", 
+				"speaker": "佐川夫美雄"
+			}
+		]
+	},
 	{
 		"url": "https://atnd.org/events/56164",
 		"date":	"2014/10/04",
@@ -15,6 +45,7 @@
 		"date":	"2014/10/05",
 		"title": "Mozilla Open Web Day in Tokyo",
 		"venue": "3331 Arts Chiyoda (東京都千代田区外神田6丁目11-14)",
+		"desc": "MEANフルスタックによる今どきのWeb開発",
 		"contents": [
 			{
 				"category": "参加",
@@ -27,6 +58,7 @@
 		"date":	"2014/10/18-2014/10/19",
 		"title": "[東京] オープンソースカンファレンス2014 Tokyo/Fall",
 		"venue": "明星大学 日野キャンパス 28号館",
+		"desc": "HTML5を活用した業務アプリケーションにおけるこれからのWeb開発",
 		"contents": [
 			{
 				"category": "参加",
@@ -39,9 +71,11 @@
 		"date":	"2014/09/20",
 		"title": "[広島] オープンソースカンファレンス2014 Hiroshima",
 		"venue": "サテライトキャンパスひろしま（広島県民文化センター 5F）",
+		"desc": "HTML5を活用した業務アプリケーションにおけるこれからのWeb開発",
 		"contents": [
 			{
 				"category": "参加",
+				"title": "AngularJS/YEOMAN/MEANスタック", 
 				"speaker": "佐川夫美雄"
 			}
 		]
@@ -73,13 +107,21 @@
 		"url": "https://atnd.org/events/55761",
 		"date":	"2014/09/09",
 		"title": "エンタープライヤーのためのWebComponentsハンズオン",
-		"venue": "21Cafe"
+		"venue": "21Cafe",
+		"contents": [
+			{
+				"category": "参加",
+				"speaker": "小川充（講師）/佐川夫美雄（チューター）/酒巻瑞穂（チューター）"
+			}
+		]
+
 	},
 	{
 		"url": "http://www.ospn.jp/osc2014-kyoto/",
 		"date":	"2014/08/01-2014/08/02",
 		"title": "[京都] オープンソースカンファレンス2014 Kansai＠Kyoto",
 		"venue": "京都リサーチパーク(KRP)",
+		"desc": "HTML5を活用した業務アプリケーションにおけるこれからのWeb開発",
 		"contents": [
 			{
 				"category": "参加",
@@ -93,7 +135,12 @@
 		"title": "HTML5とかモバイルとかJSフレームワークとか、ぶっちゃけどうなの座談会",
 		"venue": "21Cafe",
 		"desc": "エンタープライズを支えるフロントエンド事情！？",
-		"contents": []
+		"contents": [
+			{
+				"category": "参加",
+				"speaker": "川田寛/小川充/酒巻瑞穂"
+			}
+		]
 	},
 	{
 		"url": "http://atnd.org/events/54156",

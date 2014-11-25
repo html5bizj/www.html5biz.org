@@ -1,25 +1,26 @@
 [
 	{
-		"url": "http://www.ospn.jp/osc2014-fukuoka/",
-		"date":	"2014/11/21-2014/11/22",
-		"title": "[福岡] オープンソースカンファレンス2014 Fukuoka",
-		"venue": "福岡ソフトリサーチパーク センタービル 2F "
-	},
-	{
-		"url": "",
-		"date":	"2014/11/23",
-		"title": "HTML5入門@宮崎"
-	},
-	{
 		"url": "",
 		"date":	"2014/11/28-2014/11/29",
 		"title": "神戸ITフェスティバル",
 		"venue": "神戸市三宮"
 	},
 	{
+		"url": "",
+		"date":	"2014/12/13",
+		"title": "HTML5入門@福井",
+		"venue": ""
+	},
+	{
 		"url": "http://events.html5j.org/conference/2015/1/",
 		"date":	"2015/01/25",
 		"title": "HTML5カンファレンス",
+		"venue": ""
+	},
+	{
+		"url": "http://www.ospn.jp/osc2015-spring/",
+		"date":	"2015/02/27-2015/02/28",
+		"title": "[東京] オープンソースカンファレンス2015 Tokyo/Spring",
 		"venue": ""
 	}
 ]
