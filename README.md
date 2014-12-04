@@ -26,18 +26,6 @@ HTML5・JavaScript・Web系インフラ・UI/UX・モバイルなどのWeb技術
 
 <http://www.html5biz.org/#/archive>
 
-## 貢献
-
-html5jエンタープライズ部では活動を支えてくれるスタッフ・ボランティアを随時募集しています。日本のエンタープライズITをWebの力で良くしたいという熱い思いをお持ちの方。  
-一緒にその夢を実現しませんか？
-
-ご興味のある方は下記窓口にプロフィール、志望動機(熱い思い)を添えてご連絡ください。  
-<html5biz-conductors@googlegroups.com>
-
 ## ライセンス
 
 [MIT](https://github.com/tcnksm/tool/blob/master/LICENCE)  
-
-## 運営メンバー
-
-<http://www.html5biz.org/#/aboutus>
